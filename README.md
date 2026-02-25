@@ -159,8 +159,7 @@ Overview of the main tables and relationships:
 ---
 
 ## Author
-
-**Your Name**  
+ 
 - GitHub: [ssssertovic](https://github.com/your-username)  
 
 ---
