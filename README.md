@@ -26,7 +26,7 @@ Funkcionalnosti su podijeljene prema ulogama: **registrovani korisnik** i **admi
 ### Registrovani korisnik
 
 <p align="center">
-  <img src="docs/images/dashboard.png" width="700">
+  <img src="images/dashboard.png" width="700">
 </p>
 
 - **Registracija i prijava** — Registracija putem e-maila i lozinke, verifikacija e-maila (Laravel Jetstream), prijava i odjava. Podržana je i opcija dvofaktorske autentifikacije.
