@@ -69,7 +69,7 @@ Funkcionalnosti su podijeljene prema ulogama: **registrovani korisnik** i **admi
 - **Upravljanje trenerima** — CRUD operacije nad trenerima (dodavanje, uređivanje, brisanje).
 - **Upravljanje planovima** — CRUD operacije nad planovima članstva (naziv, cijena, trajanje, opis).
 - **Upravljanje treningima (workouts)** — Pregled treninga, dodavanje novih i brisanje. Tabela `workouts` vodi evidenciju treninga (datum, ocjena, opis, trener, član).
-- **Pregled rezervacija** — Administrator na stranici „Rezervacije” vidi sve rezervacije u sistemu (s imenom korisnika, planom i trenerom); običan korisnik vidi samo svoje rezervacije.
+- **Pregled rezervacija** — Administrator na stranici „Rezervacije” vidi sve rezervacije u sustavu (s imenom korisnika, planom i trenerom); običan korisnik vidi samo svoje rezervacije.
 
 Dashboard za administratora prikazuje i kratku statistiku: broj članova (iz tabele `members`), broj planova, broj trenera i broj treninga.
 
