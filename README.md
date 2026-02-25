@@ -36,7 +36,7 @@ Funkcionalnosti su podijeljene prema ulogama: **registrovani korisnik** i **admi
 </p>
 
 <p align="center">
-  <img src="images/_login.png" width="700">
+  <img src="images/login.png" width="700">
 </p>
 
 - **Pregled planova** — Lista svih planova članstva s detaljima (naziv, cijena, trajanje, opis) i mogućnost pregleda pojedinačnog plana.
