@@ -161,8 +161,7 @@ Overview of the main tables and relationships:
 ## Author
 
 **Your Name**  
-- GitHub: [@your-username](https://github.com/your-username)  
-- Email: your.email@example.com  
+- GitHub: [ssssertovic](https://github.com/your-username)  
 
 ---
 
