@@ -139,7 +139,7 @@ Gdje je potrebno, u kontrolerima se koristi i `DB::table(...)` za složenije joi
 ## REST API integracija
 
 <p align="center">
-  <img src="docs/images/rest-api.png" width="700">
+  <img src="images/test.png" width="700">
 </p>
 
 Aplikacija **koristi eksterni REST API** za motivacione citate. Na dashboardu se prikazuje sekcija „Dnevna motivacija” koja periodično (npr. svakih 30 sekundi) dohvaća novi citat.
