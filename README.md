@@ -26,41 +26,41 @@ Funkcionalnosti su podijeljene prema ulogama: **registrovani korisnik** i **admi
 ### Registrovani korisnik
 
 <p align="center">
-  <img src="images/dashboard.png" width="700">
+  <img src="images/pocetna.png" width="700">
 </p>
 
 - **Registracija i prijava** — Registracija putem e-maila i lozinke, verifikacija e-maila (Laravel Jetstream), prijava i odjava. Podržana je i opcija dvofaktorske autentifikacije.
 
 <p align="center">
-  <img src="docs/images/registration.png" width="700">
+  <img src="images/registracija.png" width="700">
 </p>
 
 <p align="center">
-  <img src="docs/images/login.png" width="700">
+  <img src="images/_login.png" width="700">
 </p>
 
 - **Pregled planova** — Lista svih planova članstva s detaljima (naziv, cijena, trajanje, opis) i mogućnost pregleda pojedinačnog plana.
 
 <p align="center">
-  <img src="docs/images/plans.png" width="700">
+  <img src="images/_planovi.png" width="700">
 </p>
 
 - **Pregled trenera** — Lista trenera s podacima (ime, prezime, nivo, opis) i pregled profila pojedinačnog trenera.
 
 <p align="center">
-  <img src="docs/images/trainers.png" width="700">
+  <img src="images/_treneri.png" width="700">
 </p>
 
 - **Zakazivanje termina** — Kreiranje rezervacije treninga: izbor plana, trenera i datuma/vremena; unos opcionih napomena. Korisnik vidi samo svoje rezervacije.
 
 <p align="center">
-  <img src="docs/images/booking.png" width="700">
+  <img src="images/_termini.png" width="700">
 </p>
 
 - **Upravljanje profilom** — Ažuriranje imena, e-maila, visine (cm) i težine (kg); promjena lozinke; upload profilne fotografije (Laravel Jetstream); brisanje vlastitog računa (potvrda lozinkom).
 
 <p align="center">
-  <img src="docs/images/profile-management.png" width="700">
+  <img src="images/profil.png" width="700">
 </p>
 
 ### Administrator
