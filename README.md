@@ -259,6 +259,73 @@ Automatski testovi (npr. PHPUnit) mogu se pokrenuti naredbom `php artisan test` 
 
 ---
 
+# MongoDB
+
+<p align="center">
+  <img src="images/mongodb.png" width="700">
+</p>
+
+## Šta je MongoDB?
+
+MongoDB je NoSQL baza podataka koja podatke čuva u obliku dokumenata, a ne u klasičnim tabelama kao relacijske baze podataka.  
+Umjesto redova i kolona, MongoDB koristi dokumente u JSON-sličnom formatu (BSON), što omogućava fleksibilniju strukturu podataka.
+
+Za razliku od tradicionalnih baza, MongoDB ne zahtijeva strogo definisanu šemu unaprijed. Svaki dokument može imati različita polja, što ga čini pogodnim za aplikacije koje rade sa velikom količinom raznovrsnih ili nestrukturiranih podataka.
+
+---
+
+## Razlika između MongoDB i SQL baza (MySQL / PostgreSQL)
+
+U ovom projektu korištene su relacijske baze podataka (MySQL i PostgreSQL), koje se razlikuju od MongoDB-a u nekoliko ključnih aspekata.
+
+### Struktura podataka
+
+**MySQL / PostgreSQL**
+- Podaci se organizuju u tabele
+- Svaka tabela ima definisane kolone
+- Postoje jasne relacije između tabela
+- Koriste se strani ključevi (foreign keys)
+
+**MongoDB**
+- Podaci se čuvaju u dokumentima
+- Nema klasičnih tabela i stranih ključeva
+- Struktura podataka je fleksibilna
+
+---
+
+### Integritet i pouzdanost
+
+Relacijske baze podataka, poput MySQL i PostgreSQL, pružaju:
+
+- ACID transakcije
+- Strogu kontrolu integriteta podataka
+- Jasno definisane relacije između entiteta
+
+MongoDB je fleksibilniji, ali se relacije često rješavaju na nivou aplikacije, a ne same baze.
+
+---
+
+## Zašto je u GymApp projektu korišten SQL, a ne MongoDB?
+
+U okviru ovog projekta razvijen je sistem za upravljanje teretanom koji uključuje:
+
+- korisnike
+- trenere
+- planove treninga
+- rezervacije
+- relacije između svih navedenih entiteta
+
+Ovi podaci su jasno strukturirani i međusobno povezani.  
+Na primjer, rezervacija mora biti povezana sa određenim korisnikom i trenerom. Takve relacije se najefikasnije i najsigurnije implementiraju u relacijskim bazama podataka putem stranih ključeva.
+
+Zbog toga je SQL baza podataka bila logičan i profesionalan izbor za ovaj projekat.
+
+Također, Laravel framework ima snažnu i prirodnu podršku za relacijske baze putem Eloquent ORM-a, što dodatno pojednostavljuje rad sa MySQL i PostgreSQL bazama.
+
+Iako je MongoDB savremen i moćan NoSQL sistem, za aplikacije poput GymApp-a koje zahtijevaju jasno definisane relacije, integritet podataka i transakcijsku sigurnost, relacijske baze podataka predstavljaju stabilnije i prikladnije rješenje.
+
+---
+
 ## Autor
 
 **GymApp** — Projekat izrađen u sklopu predmeta Objektno orijentirane baze podataka na Tehnički fakultet Bihać.
